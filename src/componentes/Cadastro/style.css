@@ -1,0 +1,76 @@
+.caixa-cadastro {
+    width: 46.4vw;
+    height: 42vw;
+    border: (0, 0, 0, 0.25);
+    background: #FFF;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .caixa-cadastro h2 {
+    margin-left: 3.3vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 3.2vw; 
+  }
+  
+  .caixa-cadastro .inserir {
+    width: 38.3vw;
+    height: 24.7vw;
+    margin-left: 3.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* definição de espaço entre e aos redor dos itens */
+  }
+  
+  .caixa-cadastro .inserir h3 {
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4vw;
+    line-height: 1.6vw;
+  }
+  
+  .inserir .lado-a-lado {
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lado-a-lado .campo-texto-menor {
+    width: 18.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .inserir .campo-texto-menor label{
+    font-size: 0.97vw;
+  }
+  
+  .inserir .campo-texto-menor input {
+    width: calc(18.4vw - 1.04vw);
+    height: 3.1vw;
+    border: none;
+    background: #F0F0F5;
+    border-radius: 0.55vw;
+    font-size: 1vw;
+    padding-left: 1.04vw; /* propriedade que define o preenchimento esquerdo do elemento **/
+  }
+  
+  .caixa-cadastro #btFnCadastro {
+    border: none;
+    border-radius: 0.5vw;
+    background: #000;
+    color: #FFF;
+    width: 38.3vw;
+    height: 3.9vw;
+    margin-left: 3.9vw;
+    font-style: normal;
+    font-size: 1.1vw;
+    line-height: 1.2vw;
+    cursor: pointer;
+}

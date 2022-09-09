@@ -1,0 +1,32 @@
+.caixa .corpo .comentar {
+    display: flex;
+    height: 3.1vw;
+  }
+  
+  .caixa .corpo .input {
+    width: 20.4vw;
+    font-size: 0.9vw;
+    border: 0.035vw solid rgba(0, 0, 0, 0.25);
+    border-right: none;
+    border-radius: 0.55vw 0 0 0.55vw;
+    padding: 0.76vw;
+  }
+  
+  .caixa .corpo #btComentar {
+    width: 4vw;
+    background: #000;
+    border-radius: 0 0.55vw 0.55vw 0;
+  }
+  
+  #btComentar img {
+    width: 1.4vw;
+    height: 1.4vw;
+  }
+  
+  .corpo .lista-comentarios {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  

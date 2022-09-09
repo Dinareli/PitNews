@@ -1,0 +1,31 @@
+.cabecalho {
+    width: 100vw;
+    min-height: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7.3vw;
+  }
+  
+  .cabecalho #logo {
+    width: 9vw;
+    height: 9vw;
+  }
+  
+  .cabecalho .voltar-inicio {
+    display: flex;
+    align-items: center;
+    padding-right: 21.6vw;
+  }
+  
+  .cabecalho .inicio-voltar img {
+    width: 1.4vw;
+    height: 1.4vw;
+  }
+  
+  .cabecalho .inicio.voltar p {
+    font-size: 1.1vw;
+    line-height: 1.2vw;
+    font-weight: 700;
+    cursor: pointer;
+  }

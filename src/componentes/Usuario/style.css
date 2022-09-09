@@ -1,0 +1,6 @@
+.usuario{
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+  }

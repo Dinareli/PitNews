@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .menu-lateral{  
+    width:4.6vw;
+    height:100vh;
+    background:#FFF;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+  }
+  
+  .menu-lateral .sup{  
+    width:100%;
+    height:10.4vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+  }
+  #logo {
+    width:2vw;
+    height:2vw;
+  }
+  
+  .menu-lateral .sup button{
+    border:none;
+    background:transparent;
+    width:100%;
+    height:2.5vw;
+    cursor:pointer;
+  }
+  .menu-lateral .sup img{
+    width:1.4vw;
+    height:1.4vw;
+  }
+  
+  .menu-lateral .inf{  
+    width:100%;
+    height:9vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;  
+  }
+  .menu-lateral .inf button{
+    border:none;
+    background:transparent;
+    height:2.5vw;
+    width:100%;
+    cursor:pointer;
+  }
+  .menu-lateral .inf img{
+    height:1.4vw;
+    width:1.4vw;
+  }
+  
+  #btHome:focus{
+    border-left: 0.2vw solid #000000;
+  }
+  #btAdd:focus{
+    border-left: 0.2vw solid #000000;
+  }
+  #btConfig:focus{
+    border-left: 0.2vw solid #000000;
+  }
+  #btSair:focus{
+    border-left: 0.2vw solid #000000;
+  }
+  
