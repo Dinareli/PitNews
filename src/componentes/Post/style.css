@@ -1,0 +1,32 @@
+.post{
+    border: 0.035vw solid rgba(0, 0, 0, 0.25);
+    border-radius:0.55vw;
+    width:44vw;
+    min-height:25.3vw;
+    background:#E0E0E0;
+    font-family: "Quattrocento", sans-serif;
+    margin-top:1.6vw;
+  }
+  
+  .post .corpo-post{
+    border-bottom: 0.035px solid rgba(0, 0, 0, 0.25);
+    border-radius:0.55vw;
+    min-height:22.8vw;
+    background:#FFF;
+    
+  }
+  .imagem{
+    border:1px red solid;
+    width:40.2vw;
+    margin-left:1.8vw;
+    padding-top:1.8vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  #img-noticia{
+    width:22.2vw;
+    height:14.4vw;
+  }
+  

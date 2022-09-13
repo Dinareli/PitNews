@@ -9,11 +9,12 @@ import Comentarios from './componentes/Comentarios';
 // import CurtirComentar from './componentes/CurtirComentar';
 // import Cabecalho from './componentes/Cabecalho';
 import Cadastro from './componentes/Cadastro';
+import Post from './componentes/Post';
 
 function App() {
   return (
   <div className= "principal">
-    <Cadastro/>
+    <Post/>
   </div>
   );
 }
