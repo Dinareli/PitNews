@@ -16,7 +16,7 @@
     
   }
   .imagem{
-    border:1px red solid;
+    /* border:1px red solid; **/
     width:40.2vw;
     margin-left:1.8vw;
     padding-top:1.8vw;
@@ -30,3 +30,59 @@
     height:14.4vw;
   }
   
+  .texto {
+    width: 40.2vw;
+    margin-left: 1.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px green solid */
+  }
+
+  .texto h1 {
+    width: 35.4vw;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 4.4vw;
+    text-align: justify;
+  }
+
+  .texto p {
+    width: 35.4vw;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 1.7vw;
+    text-align: justify;
+  }
+
+  #texto-extensao {
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .post .rodape {
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rodape .curtidas {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .rodape .comentarios {
+    display: flex;
+    margin-left: 0.5vw;
+    cursor: pointer;
+  }
+
+  .pop-up::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .post .pop-up {
+    transform: translate(10%, -80%);
+  }
