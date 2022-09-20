@@ -5,6 +5,7 @@ import Like from '../../imagens/like.svg';
 import Chat from '../../imagens/chat.svg';
 import CurtirComentar from '../CurtirComentar';
 import { useState } from 'react';
+import Curtida from '../Curtida';
 
 function Post() {
     const[curtida, setCurtida] = useState(false);
@@ -58,11 +59,15 @@ function Post() {
             </div>}
 
             <div className='rodape'>
-                <div className='curtidas'>
+                <div className='curtidas' onClick={() =>{
+                    setCurtida(!curtida)
+                    console.log('click aceito!');}
+                }>
                     <img id='like' src={Like}/>
                     <p>8 curtidas</p>
                 </div>
-                    <div className='comentarios'>
+                    <div className='comentarios' onClick={() =>
+                        setComentario(!comentario)}>
                         <img id='chat' src={Chat}/>
                         <p> 10 comentários</p>
                     </div>

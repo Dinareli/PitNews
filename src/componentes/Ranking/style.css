@@ -1,0 +1,46 @@
+.ranking {
+    width: 36.7vw;
+    border: 0.5px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5vw;
+    background: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.6vw;
+}
+
+.grafico {
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 27vw;
+    border-radius: 0.5vw;
+}
+
+.grafico img {
+    width: 30vw;
+    height: 16.2vw;
+}
+
+.escolas {
+    margin-top: 3.8vw;
+}
+
+.escolas li {
+    font-size: 1.3vw;
+}
+
+.ranking .rodape {
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+.ranking .rodape button {
+    font-size: 1.2vw;
+    border: none;
+    background: #e0e0e0;
+    cursor: pointer;
+}
