@@ -1,0 +1,132 @@
+.pagina-home{ 
+    width: 100vw;
+    height: 100vw;
+    background: #f0f0f5;
+    font-family: 'Quattrocento', serif;
+    overflow-x: hidden;
+}
+
+.pagina-home .conteudo-home {
+    width: 76.4vw;
+    height: 35.3vw;
+    margin-top: 3.75vw;
+    margin-left: 11vw;
+    display: flex;
+}
+
+.pagina-home .primeira-coluna {
+    width: 38.5vw;
+    height: 35vw;
+}
+
+.pagina-home #logo {
+    width: 12.5vw;
+    height: 12.5vw;
+}
+
+.pagina-home .primeira-coluna h1 {
+    width: 38.5vw;
+    height: 8.88vw;
+    font-weight: 700;
+    font-size: 3.75vw;
+    line-height: 4.44vw;
+}
+
+.pagina-home .primeira-coluna p {
+    width: 31.1vw;
+    height: 5.27vw;
+    font-weight: 400;
+    font-size: 1.67vw;
+    line-height: 2.64vw;
+}
+
+.pagina-home .primeira-coluna .botoes {
+    width: 32vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagina-home .primeira-coluna #btPesquisar {
+    border: none;
+    border-radius: 0.55vw;
+    background: #000;
+    width: 17.8vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1vw;
+    font-weight: 700;
+    background: #000;
+    color: #FFF;
+}
+
+.pagina-home .primeira-coluna #btPesquisar img {
+    width: 1.3vw;
+    height: 1.3vw;
+    background: #000;
+}
+
+.pagina-home .primeira-coluna #btLogin {
+    border: none;
+    border-radius: 0.55vw;
+    background: #000;
+    width: 13.12vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1vw;
+    background: #000;
+    color: #FFF;
+}
+
+.pagina-home .primeira-coluna #btLogin img {
+    width: 1.73vw;
+    height: 0.75vw;
+    background: #000;
+}
+
+/* Segunda Coluna **/
+
+.pagina-home .segunda-coluna {
+    margin-left: 8vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.pagina-home .segunda-coluna #btInicio {
+    border: none;
+    border-radius: 0.5vw;
+    background: #000;
+    color: #FFF;
+    width: 5.4vw;
+    height: 2.2vw;
+    font-size: 1.1vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pagina-home.segunda-coluna #btSobreNos {
+    border: none;
+    border-radius: 0.5vw;
+    background: transparent;
+    height: 2.2vw;
+    font-size: 1.1vw;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.pagina-home .segunda-coluna #btSobreNos a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.pagina-home .segunda-coluna img {
+    width: 30vw;
+    height: 25vw;
+}
