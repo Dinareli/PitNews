@@ -1,0 +1,15 @@
+.pagina-pesquisa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #F0F0F5;
+    width: 100vw;
+    height: 100vw;
+}
+
+.pagina-pesquisa .post {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    overflow-x: hidden;
+}
