@@ -1,0 +1,12 @@
+.configuracoes {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    background: #F0F0F5;
+}
+
+.configuracoes .ajuste-cadastro {
+    margin-left: 21.11vw;
+}
+

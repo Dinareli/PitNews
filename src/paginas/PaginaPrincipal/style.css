@@ -1,0 +1,67 @@
+.pagina-principal {
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    background: #F0F0F5;
+    overflow-x: hidden;
+}
+
+.corpo-pagina-principal {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 4.6vw);
+    height: 100%;
+}
+
+.corpo-pagina-principal .cabeca {
+    width: 100%;
+    height: 5.9vw;
+    display: flex;
+    align-items: flex-end; /* alinha o conteúdo a partir do eixo principal **/
+}
+
+.cabeca .usuario {
+    margin-left: 3.7vw;
+}
+
+.cabeca #pesquisa {
+    margin-left: 10vw;
+}
+
+.corpo-pagina-principal .conteudo {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 5.9vw);
+}
+
+.corpo-pagina-principal .conteudo .primeira-coluna {
+    margin-left: 3.7vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo-pagina-principal .conteudo #titulo {
+    margin-top: 1.8vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8vw;
+    line-height: 3.2vw;
+}
+
+.corpo-pagina-principal .conteudo .primeira-coluna .posts {
+    overflow: scroll; /* Adiciona barra de rolagem **/
+    overflow-x: hidden; /* Define se a barra vai ser alteração horizontalmente ou verticalmente**/
+}
+
+::webkit-scrollbar { /* Estiliza a barra de rolagem **/
+    width: 0px;
+}
+
+.corpo-pagina-principal .conteudo .segunda-coluna {
+    margin-left: 2.3vw;
+}
+
+
+
+
+
