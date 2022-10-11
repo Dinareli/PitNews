@@ -1,0 +1,112 @@
+.pagina-sobre-nos {
+    margin: 0;
+    background: #F0F0F5;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Quattrocento', serif;
+}
+
+.conteudo-sobre-nos {
+    width: 70.88vw;
+    height: 34.51vw;
+    margin-left: 12.15vw;
+    margin-top: 6.46vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo-sobre-nos .topo {
+    width: 70.88vw;
+    height: 9.03vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-sobre-nos #logo {
+    width: 9.03vw;
+    height: 9.03vw;
+}
+
+.conteudo-sobre-nos .titulo {
+    width: 70.88vw;
+    height: 8.89vw;
+    margin-top: 4.17vw;
+    display: flex;
+}
+
+.conteudo-sobre-nos #titulo {
+    font-weight: 700;
+    font-size: 3.75vw;
+    line-height: 4.44vw;
+    text-align: justify;
+}
+
+.conteudo-sobre-nos #subtitulo {
+    font-weight: 400;
+    font-size: 1.67vw;
+    line-height: 2.64vw;
+    text-align: justify;
+}
+
+.conteudo-sobre-nos .icones {
+    width: 10.36vw;
+    height: 2.43vw;
+    /* margin-top: 1.3vw; **/
+    margin-left: 30.20vw;
+    display: flex;
+}
+
+.conteudo-sobre-nos #global {
+    width: 2.43vw;
+    height: 2.43vw;
+}
+
+.conteudo-sobre-nos #facebook {
+    width: 2.43vw;
+    height: 2.43vw;
+    margin-left: 1.53vw;
+}
+
+.conteudo-sobre-nos #instagram {
+    width: 2.43vw;
+    height: 2.43vw;
+    margin-left: 1.53vw;
+}
+
+.conteudo-sobre-nos .botoes {
+    width: 10.43vw;
+    height: 2.22vw;
+   /* margin-top: 3.06vw; **/
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.conteudo-sobre-nos #btSobreNos {
+    border: none;
+    border-radius: 0.55vw;
+    background: #000;
+    color: #FFF;
+    width: 6.31vw;
+    height: 100%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.conteudo-sobre-nos #btInicio {
+    border: none;
+    width: 4.16vw;
+    height: 2.22vw;
+    font-size: 1.1vw;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.conteudo-sobre-nos #btInicio a{
+    text-decoration: none;
+    color: #B2B2B2;
+}
+
