@@ -1,24 +1,46 @@
 import React from 'react';
 import './App.css';
-import Usuario from './componentes/Usuario';
-import Pesquisa from './componentes/Pesquisa';
-import MenuLateral from './componentes/MenuLateral';
-import Curtida from './componentes/Curtida';
-import Curtidas from './componentes/Curtidas';
-import Comentarios from './componentes/Comentarios';
-import CurtirComentar from './componentes/CurtirComentar';
-import Cabecalho from './componentes/Cabecalho';
-import Cadastro from './componentes/Cadastro';
-import Post from './componentes/Post';
-import Ranking from "./componentes/Ranking";
+import {Route, BrowserRouter, Routes} from 'react-router-dom';
+import PaginaPrincipal from './paginas/PaginaPrincipal';
 import Login from './paginas/Login';
-
+import PaginaCadastro from './paginas/PaginaCadastro';
+import Configuracoes from './paginas/Configuracoes';
+import PaginaPesquisa from './paginas/PaginaPesquisa';
+import CadastroNoticia from './paginas/CadastroNoticia';
+import Home from './paginas/Home';
+import SobreNos from './paginas/SobreNos';
 
 function App() {
   return (
-    <div className= "principal">
-      <Login/>
-    </div>
+    <BrowserRouter>  
+    <Routes>
+      <Route exact={true} path="/"
+        element={<Home/>}/>
+      
+      <Route exact={true} path="/sobre-nos"
+        element={<SobreNos/>}/>
+      
+      <Route exact={true} path="/pesquisa"
+        element={<PaginaPesquisa/>}/>
+      
+      <Route exact={true} path="/login"
+        element={<Login/>}/>
+      
+      <Route exact={true} path="/cadastro"
+        element={<PaginaCadastro/>}/>
+      
+      <Route exact={true} path="/pagina-principal"
+        element={<PaginaPrincipal/>}/>
+      
+      
+      <Route exact={true} path="/cadastro-noticia"
+        element={<CadastroNoticia/>}/>
+      
+      <Route exact={true} path="/configuracoes"
+        element={<Configuracoes/>}/>
+    </Routes>
+    </BrowserRouter>
+
   );
 }
 
